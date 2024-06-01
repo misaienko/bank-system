@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		84BCDB982C00470200635AB5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 84BCDB972C00470200635AB5 /* main.c */; };
+		84BCDBA02C01151A00635AB5 /* AccountManager.c in Sources */ = {isa = PBXBuildFile; fileRef = 84BCDB9F2C01151A00635AB5 /* AccountManager.c */; };
+		84BCDBA32C01158800635AB5 /* FileOperations.c in Sources */ = {isa = PBXBuildFile; fileRef = 84BCDBA22C01158800635AB5 /* FileOperations.c */; };
+		84BCDBA92C011F8E00635AB5 /* transaction.c in Sources */ = {isa = PBXBuildFile; fileRef = 84BCDBA82C011F8E00635AB5 /* transaction.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		84A531E92C07B812005131C0 /* accounts.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = accounts.txt; sourceTree = "<group>"; };
 		84BCDB942C00470200635AB5 /* BankSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BankSystem; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BCDB972C00470200635AB5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		84BCDB9E2C01151A00635AB5 /* AccountManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		84BCDB9F2C01151A00635AB5 /* AccountManager.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = AccountManager.c; sourceTree = "<group>"; };
+		84BCDBA12C01158800635AB5 /* FileOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileOperations.h; sourceTree = "<group>"; };
+		84BCDBA22C01158800635AB5 /* FileOperations.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FileOperations.c; sourceTree = "<group>"; };
+		84BCDBA72C011F8E00635AB5 /* transaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transaction.h; sourceTree = "<group>"; };
+		84BCDBA82C011F8E00635AB5 /* transaction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = transaction.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				84BCDB972C00470200635AB5 /* main.c */,
+				84BCDB9F2C01151A00635AB5 /* AccountManager.c */,
+				84BCDB9E2C01151A00635AB5 /* AccountManager.h */,
+				84BCDBA22C01158800635AB5 /* FileOperations.c */,
+				84BCDBA12C01158800635AB5 /* FileOperations.h */,
+				84BCDBA82C011F8E00635AB5 /* transaction.c */,
+				84BCDBA72C011F8E00635AB5 /* transaction.h */,
+				84A531E92C07B812005131C0 /* accounts.txt */,
 			);
 			path = BankSystem;
 			sourceTree = "<group>";
@@ -120,6 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BCDB982C00470200635AB5 /* main.c in Sources */,
+				84BCDBA02C01151A00635AB5 /* AccountManager.c in Sources */,
+				84BCDBA32C01158800635AB5 /* FileOperations.c in Sources */,
+				84BCDBA92C011F8E00635AB5 /* transaction.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
