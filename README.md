@@ -1,4 +1,4 @@
-### Sample Project for demonstration of C language usage - Simple Bank System
+### Sample Project for demonstration of C language usage 'Bank System'
 The project was designed to manage bank accounts. 
 This system handles various tasks such as loading, saving, displaying, adding, updating, and transferring money between accounts.
 
